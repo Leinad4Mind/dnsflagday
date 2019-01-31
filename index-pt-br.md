@@ -10,7 +10,7 @@ redirect_from:
 
 O que está acontecendo?
 =======================
-O sistemas de [DNS](https://pt.wikipedia.org/wiki/Domain_Name_System) atuais sofrem demoras desnecessárias e dificuldade para lançar novas funcionalidades. Para remediar esses problemas, [desenvolvedores](#apoiadores) e grandes [provedores](#apoiadores) públicos de DNS irão remover certas modificações (workarounds) no dia 1 de Fevereiro de 2019.
+Os sistemas de [DNS](https://pt.wikipedia.org/wiki/Domain_Name_System) atuais sofrem demoras desnecessárias e dificuldade para lançar novas funcionalidades. Para remediar esses problemas, [desenvolvedores](#apoiadores) e grandes [provedores](#apoiadores) públicos de DNS irão remover certas modificações (workarounds) no dia 1 de Fevereiro de 2019.
 
 Essa mudança impacta apenas sites que operam software que não esteja seguindo os padrões publicados. Você será impactado?
 
@@ -27,7 +27,7 @@ Para começar a entender como está sua conformidade com o EDNS, recomendamos qu
 
 O resultado dos testes de [ednscomp](https://ednscomp.isc.org/ednscomp) devem ser uma mensagem em verde dizendo `Tudo Ok`.
 
-Para ter o mínimo necessário para que seu domínio continue funcionando após o 2019 DNS flag day, nenhum teste de DNS e e EDNS versão 0 deve ter o resultado `timeout`, de acordo com a ferramenta [ednscomp](https://ednscomp.isc.org/ednscomp). É importante resaltar que ter apenas o mínimo necessário poderá causar outros problemas cedo ou tarde. Por essa razão **nós recomendados que garanta que todos os testes EDNS estejam `ok`** em vez de fazer apenas as correções mínimas ou você poderá ter novos problemas no futuro próximo.
+Para ter o mínimo necessário para que seu domínio continue funcionando após o 2019 DNS flag day, nenhum teste de DNS e de EDNS versão 0 deve ter o resultado `timeout`, de acordo com a ferramenta [ednscomp](https://ednscomp.isc.org/ednscomp). É importante ressaltar que ter apenas o mínimo necessário poderá causar outros problemas cedo ou tarde. Por essa razão **nós recomendados que garanta que todos os testes EDNS estejam `ok`** em vez de fazer apenas as correções mínimas ou você poderá ter novos problemas no futuro próximo.
 
 Se forem encontrados problemas, a ferramenta ednscomp irá mostrar uma explicação para cada teste que falhou. Falhas nesses testes são tipicamente causadas por:
 * software de DNS com problemas
@@ -49,7 +49,7 @@ Por favor teste sua implementação usando a ferramenta [ednscomp](https://ednsc
 
 Pesquisadores
 =============
-Pesquisadores e outros envolvidos, tais como operadores de TLD, poderam se interessar pelos documentos abaixo:
+Pesquisadores e outros envolvidos, tais como operadores de TLD, poderão se interessar pelos documentos abaixo:
  * [Estatísticas de conformidade EDNS](https://ednscomp.isc.org/) geradas pela [suíte de testes de conformidade EDNS](https://gitlab.isc.org/isc-projects/DNS-Compliance-Testing) do ISC
  * [EDNS zone scanner](https://gitlab.labs.nic.cz/knot/edns-zone-scanner/) por CZ.NIC que permite avaliar o impacto real do DNS flag day
 
